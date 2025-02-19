@@ -16,7 +16,7 @@ from sklearn import metrics
 
 #loading dataset
 # Loading Data
-data = pd.read_csv("C:/Users/HP/PREDICTION/DROUGHT.csv")
+data = pd.read_csv("DROUGHT.csv")
 print(data)
 
 data['Date'] = pd.to_datetime(data['Date'])
